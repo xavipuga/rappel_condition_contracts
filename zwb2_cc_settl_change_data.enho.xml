@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>BADI_IMPL</TOOL>
+   <SHORTTEXT>WB2R: Modificar datos de liquidación</SHORTTEXT>
+   <SPOT_NAME>WB2_CC_SETTLEMENT</SPOT_NAME>
+   <IMPL>
+    <ENH_BADI_IMPL_DATA>
+     <SPOT_NAME>WB2_CC_SETTLEMENT</SPOT_NAME>
+     <BADI_NAME>WB2_CC_SETTL_CHANGE_DATA</BADI_NAME>
+     <IMPL_NAME>ZWB2_CC_SETTL_CHANGE_DATA</IMPL_NAME>
+     <IMPL_CLASS>ZCL_WB2_CC_SETTL_CHANGE_DATA</IMPL_CLASS>
+     <ACTIVE>X</ACTIVE>
+     <IMPL_SHORTTEXT>Implementación Modificar datos antes de transferencia de datos</IMPL_SHORTTEXT>
+     <IMPL_SHORTTEXT_ID>0050568F20BD1EEEA1F72E7B07482AA3</IMPL_SHORTTEXT_ID>
+     <LOCKED_IN_CUSTOMIZING>X</LOCKED_IN_CUSTOMIZING>
+    </ENH_BADI_IMPL_DATA>
+   </IMPL>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>0050568F20BD1EEEA1F72D8109012AA3</CONCEPT>
+      <CREA_LAN>S</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAI=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>0050568F20BD1EEEA1F72D8109012AA3</CONCEPT>
+       <LANGU>S</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>WB2R: Modificar datos de liquidación</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+    <item>
+     <HEADER>
+      <CONCEPT>0050568F20BD1EEEA1F72E7B07482AA3</CONCEPT>
+      <CREA_LAN>S</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAI=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>0050568F20BD1EEEA1F72E7B07482AA3</CONCEPT>
+       <LANGU>S</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Implementación Modificar datos antes de transferencia de datos</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHO</OBJECT>
+     <OBJ_NAME>ZWB2_CC_SETTL_CHANGE_DATA</OBJ_NAME>
+     <CONCEPT>0050568F20BD1EEEA1F72D8109012AA3</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHO</OBJECT>
+     <OBJ_NAME>ZWB2_CC_SETTL_CHANGE_DATA</OBJ_NAME>
+     <CONCEPT>0050568F20BD1EEEA1F72E7B07482AA3</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZRAPPEL</ARBGB>
+    <MASTERLANG>S</MASTERLANG>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRAPPEL</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRAPPEL</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Para liquidación de contracto no se ha encontrado rango de numero</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRAPPEL</ARBGB>
+     <MSGNR>600</MSGNR>
+     <TEXT>No se permite facturar con fecha posterior a hoy. Revisar ZSD042</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRAPPEL</ARBGB>
+     <MSGNR>601</MSGNR>
+     <TEXT>No se puede facturar con fecha anterior a la última factura. Rev.ZSD042</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
